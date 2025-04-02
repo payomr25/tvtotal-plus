@@ -1,0 +1,129 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(135deg, #ff00ff, #00ffff);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner .cta-button {
+    background-color: #ff00ff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Secciones */
+.seccion {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.plan {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.plan .cta-button {
+    background-color: #ff00ff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Catálogo */
+.contenido-catalogo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.item-catalogo {
+    width: 200px;
+    text-align: center;
+}
+
+.item-catalogo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 10px;
+}
+
+/* Botón de WhatsApp */
+.cta-button {
+    background-color: #00cc66;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #008f40;
+}
